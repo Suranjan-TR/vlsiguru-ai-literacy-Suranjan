@@ -16,13 +16,7 @@ An AI Agent is a system that can use an AI model, tools, and actions to work tow
 
 Simple relationship:
 
-AI
-↓
-Machine Learning
-↓
-Deep Learning
-↓
-Generative AI
+AI → Machine Learning → Deep Learning → Generative AI
 
 AI Agents can use generative AI models together with tools and actions to accomplish a goal.
 
@@ -32,25 +26,30 @@ Examples:
 - Machine Learning: Email spam detection.
 - Deep Learning: Recognizing objects in an image.
 - Generative AI: ChatGPT generating an answer to a question.
-- AI Agent: An AI system that uses tools to complete a task such as searching information and then taking an action.
-
-Generative AI mainly focuses on creating content, while an AI Agent focuses on completing a goal by reasoning, using tools, and taking actions.
+- AI Agent: An AI system that uses tools to complete a task, such as searching for information and then taking an action.
 
 ### E - Evidence
 
-1. IBM - Artificial Intelligence:
-   https://www.ibm.com/think/topics/artificial-intelligence
+The definitions and examples should be supported by reliable sources such as official documentation, textbooks, research papers, or authoritative educational resources.
 
-2. IBM - Generative AI:
-   https://www.ibm.com/think/topics/generative-ai
-
-3. Google Cloud - Generative AI glossary:
-   https://cloud.google.com/docs/generative-ai/glossary
+For this question, I will verify the definitions of AI, machine learning, deep learning, generative AI, and AI agents using reliable sources.
 
 ### V - Verification
 
-I compared the definitions of AI, machine learning, deep learning, generative AI, and AI agents with information from IBM and Google Cloud. The sources support the main definitions and the distinction between generative AI and AI agents.
+I will check whether the definitions and relationships given above agree with reliable sources.
+
+I will specifically verify:
+
+- Whether machine learning is a subset of AI.
+- Whether deep learning is a type of machine learning.
+- What distinguishes generative AI from other AI systems.
+- What makes an AI system an agent.
+- Whether the examples correctly represent each category.
 
 ### R - Reflection
 
-I learned that AI is the broad field, while machine learning and deep learning are related approaches within AI. I also understood that generative AI creates content, whereas an AI agent can use AI models and tools to work toward a goal. I learned that AI-generated information should be checked using reliable sources.
+I learned that AI is the broad concept, while machine learning is one approach used within AI. Deep learning is a type of machine learning, and generative AI focuses on creating new content.
+
+I also learned that an AI agent is different from simply generating an answer because an agent can use tools and take actions toward a goal.
+
+One thing I still want to understand better is how modern generative AI models are used inside AI agents.
