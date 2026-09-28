@@ -4,52 +4,558 @@
 
 ### A - Answer
 
-Artificial Intelligence (AI) is a broad field of computing that aims to make computers perform tasks that normally require human intelligence.
+Artificial Intelligence (AI) is the broad field of making computers perform tasks that normally require human intelligence.
 
-Machine Learning (ML) is a part of AI where computers learn patterns from data and use those patterns to make predictions or decisions.
+Machine Learning (ML) is a part of AI in which computers learn patterns from data and use those patterns to make predictions or decisions.
 
 Deep Learning (DL) is a type of machine learning that uses neural networks with multiple layers to learn complex patterns.
 
-Generative AI is AI that can create new content such as text, images, audio, video, or code.
+Generative AI is AI that can generate new content such as text, images, audio, video, or code.
 
-An AI Agent is a system that can use an AI model, tools, and actions to work toward a particular goal.
+An AI Agent is a system that can use an AI model together with tools and actions to work toward a particular goal.
 
-Simple relationship:
+A simple way to understand the relationship is:
 
-AI → Machine Learning → Deep Learning → Generative AI
+AI
+→ Machine Learning
+→ Deep Learning
 
-AI Agents can use generative AI models together with tools and actions to accomplish a goal.
+Generative AI is a type of AI capability that can generate content. It can use deep-learning models, but not every AI system is generative.
+
+AI agents are better understood as systems or workflows that can use models, tools, and actions rather than simply being another level in the hierarchy.
 
 Examples:
 
 - AI: Face recognition on a smartphone.
 - Machine Learning: Email spam detection.
 - Deep Learning: Recognizing objects in an image.
-- Generative AI: ChatGPT generating an answer to a question.
-- AI Agent: An AI system that uses tools to complete a task, such as searching for information and then taking an action.
+- Generative AI: Generating an email from an instruction.
+- AI Agent: An AI system that searches for information, evaluates the result, and then performs an action.
 
 ### E - Evidence
 
-The definitions and examples should be supported by reliable sources such as official documentation, textbooks, research papers, or authoritative educational resources.
+The Week 1 assessment asks me to distinguish AI, ML, DL, Generative AI, and AI Agents and verify the definitions using reliable sources.
 
-For this question, I will verify the definitions of AI, machine learning, deep learning, generative AI, and AI agents using reliable sources.
+Evidence should come from authoritative technical documentation, educational material, textbooks, or research sources.
 
 ### V - Verification
 
-I will check whether the definitions and relationships given above agree with reliable sources.
+I will verify that:
 
-I will specifically verify:
-
-- Whether machine learning is a subset of AI.
-- Whether deep learning is a type of machine learning.
-- What distinguishes generative AI from other AI systems.
-- What makes an AI system an agent.
-- Whether the examples correctly represent each category.
+1. Machine learning is a part of AI.
+2. Deep learning is a type of machine learning.
+3. Generative AI is concerned with generating content.
+4. An AI agent can use a model, tools, and actions to accomplish a goal.
+5. AI agents should not simply be treated as the next hierarchical level after generative AI.
 
 ### R - Reflection
 
-I learned that AI is the broad concept, while machine learning is one approach used within AI. Deep learning is a type of machine learning, and generative AI focuses on creating new content.
+I learned that AI is the broadest concept. Machine learning is one way of building AI systems, and deep learning is a type of machine learning.
 
-I also learned that an AI agent is different from simply generating an answer because an agent can use tools and take actions toward a goal.
+I also learned that Generative AI and AI Agents are not simply the same thing. Generative AI focuses on generating content, while an agent can use a model together with tools and actions to accomplish a goal.
 
-One thing I still want to understand better is how modern generative AI models are used inside AI agents.
+---
+
+## Q2 - Is Everything That Looks Intelligent Actually AI?
+
+### A - Answer
+
+No. A system can appear intelligent without actually using AI.
+
+| Example | Classification | Reason |
+|---|---|---|
+| A. Calculator produces 25 × 16 = 400 | Traditional software | It follows a mathematical procedure programmed into the calculator. |
+| B. If temperature > 80°C, display WARNING | Traditional software | The programmer explicitly defines the rule. |
+| C. Email system identifies spam using patterns learned from previous email data | Machine-learning-based AI | The system uses patterns learned from data to classify new messages. |
+| D. AI assistant writes a summary of a document | Generative AI | The system generates new text based on the document and instruction. |
+| E. Navigation application predicts estimated arrival time using traffic and historical data | Machine-learning-based AI | A model can learn patterns from traffic and historical data to make a prediction. |
+
+The important difference is that traditional software can follow explicit instructions written by a programmer, while machine-learning systems can learn patterns from data.
+
+However, we should not call something AI only because it appears intelligent. We should check evidence about how the system actually works.
+
+### E - Evidence
+
+The five examples can be classified by examining what the system is doing:
+
+- Fixed mathematical or logical rules indicate traditional software.
+- Learning patterns from data indicates machine learning.
+- Producing new content indicates generative AI.
+- Prediction from learned patterns can be a machine-learning task.
+
+### V - Verification
+
+I would verify the classification by checking reliable technical documentation about the actual system.
+
+For commercial systems such as email or navigation applications, I should not assume that AI is being used internally unless public evidence supports the claim.
+
+### R - Reflection
+
+I learned that "smart-looking" does not automatically mean AI.
+
+A fixed rule such as:
+
+`IF temperature > 80°C → WARNING`
+
+is ordinary automation.
+
+Machine learning is different because the system can learn patterns from data.
+
+---
+
+## Q3 - What Happens When You Ask an LLM a Question?
+
+### A - Answer
+
+When I send a question to an LLM, the text I provide is called the prompt.
+
+The prompt is broken into smaller pieces called tokens. Tokens can represent words, parts of words, punctuation, or other pieces of text.
+
+The model processes the tokens together with the available context. It calculates probabilities for possible next tokens.
+
+The model then selects a next token according to its generation process. The new token becomes part of the context, and the model predicts another token.
+
+This process continues until the response is completed.
+
+Simple flow:
+
+Prompt
+→ Tokens
+→ Model processing
+→ Probability distribution
+→ Next-token selection
+→ Generated response
+
+Important terms:
+
+- Prompt: The input given to the language model.
+- Token: A small unit of text processed by the model.
+- Context: The information available to the model while generating the response.
+- Probability: A numerical representation of how likely different possible next tokens are.
+- Next-token prediction: Predicting what token should come next based on the previous context.
+- Generated response: The sequence of tokens produced by the model.
+
+Training and inference are different.
+
+Training is the process in which a model learns patterns from training data.
+
+Inference is when the trained model is used to produce an output from a new input.
+
+An LLM can produce fluent language even when a statement is false because producing fluent text and producing a verified fact are different things. The model is generating text based on learned patterns and probabilities; it does not automatically guarantee that every generated statement is factually correct.
+
+### E - Evidence
+
+The required flow from the assessment is:
+
+Prompt → Tokens → Model processing → Probability distribution → Next token selection → Generated response.
+
+The assessment also specifically requires explaining why fluent language can still contain false or unsupported statements.
+
+### V - Verification
+
+I will verify the explanation using reliable technical or educational material.
+
+I will check:
+
+- What tokens are.
+- How prompts provide input to language models.
+- The basic idea of next-token prediction.
+- The difference between training and inference.
+- Why generated text should not automatically be treated as verified fact.
+
+### R - Reflection
+
+I learned that an LLM does not simply search a database and copy an answer.
+
+At a basic level, it processes the available context and predicts tokens that can form a response.
+
+I also learned an important engineering lesson: a fluent answer can still be wrong, so verification is necessary.
+
+---
+
+## Q4 - Hallucination Experiment: Can AI Sound Confident and Still Be Wrong?
+
+### A - Answer
+
+For this question, the important part is to perform an actual experiment rather than simply provide a theoretical answer.
+
+I would use the same factual question with two AI assistants.
+
+Example question:
+
+> "What is the difference between TCP and UDP?"
+
+The exact same question should be submitted to both AI assistants.
+
+The responses should then be compared against a reliable networking reference.
+
+Example experiment table:
+
+| Prompt | AI Tool | Response Summary | Verified Claim | Evidence | Result |
+|---|---|---|---|---|---|
+| What is the difference between TCP and UDP? | ChatGPT | TCP is connection-oriented and UDP is connectionless. | TCP provides connection-oriented communication. | Reliable networking reference | Correct |
+| What is the difference between TCP and UDP? | Second AI assistant | Summarizes the main differences. | Claims checked against the same reference. | Reliable networking reference | To be recorded after experiment |
+
+I must replace the example entries with the actual responses I receive from the two AI assistants.
+
+### E - Evidence
+
+The evidence for this question should be:
+
+1. The exact question I asked.
+2. The actual response from AI assistant 1.
+3. The actual response from AI assistant 2.
+4. The reliable reference used to check the claims.
+5. Any correction or disagreement discovered.
+
+### V - Verification
+
+I will compare the AI responses with the reliable reference.
+
+I will classify important claims as:
+
+- Correct
+- Unsupported
+- Incomplete
+- Contradictory
+- Incorrect
+
+I should not invent a failure just to prove that AI can be wrong. If both answers are correct, I will document that the experiment did not expose a failure.
+
+### R - Reflection
+
+An AI answer can sound convincing because fluent language and factual correctness are not the same thing.
+
+The important lesson is that I should test important claims against appropriate evidence instead of accepting an answer simply because it sounds confident.
+
+---
+
+## Q5 - AI Assistant vs Search vs Authoritative Reference
+
+### A - Answer
+
+AI assistants, search engines, and authoritative references are useful for different purposes.
+
+| Method | Main use | Strength | Limitation |
+|---|---|---|---|
+| AI assistant | Explanation and brainstorming | Can explain a topic in simple language | Can produce incorrect or unsupported information |
+| Search engine | Finding information | Helps locate many sources quickly | Search results are not automatically authoritative |
+| Authoritative reference | Verification | Provides stronger evidence for important claims | May be harder to understand or less convenient |
+
+For this activity, I would use the same technical question with all three methods.
+
+Example question:
+
+> "What is the difference between TCP and UDP?"
+
+I would first ask the AI assistant.
+
+Then I would search the same question using a search engine.
+
+Finally, I would identify an authoritative networking reference and use it to verify the important claims.
+
+### E - Evidence
+
+The evidence should include:
+
+- The AI answer.
+- Search results and useful sources found.
+- The authoritative reference.
+- The differences found between the sources.
+
+### V - Verification
+
+I would not treat the AI answer or search-result snippet as final proof.
+
+I would open the relevant source and check whether it actually supports the claim.
+
+For important engineering decisions, I would prefer primary or authoritative documentation where appropriate.
+
+### R - Reflection
+
+I learned that AI is useful for understanding and brainstorming, while search is useful for discovering information.
+
+An authoritative source is more important when I need to make an important technical decision or verify a factual claim.
+
+The three methods should not automatically be treated as equally reliable.
+
+---
+
+## Q6 - What Is an AI Agent?
+
+### A - Answer
+
+The five concepts can be understood as follows:
+
+| Concept | Simple explanation |
+|---|---|
+| LLM | A language model that processes language and generates text. |
+| LLM application | A software application that uses an LLM to provide a particular function. |
+| RAG system | A system that retrieves relevant information and provides it to the model as context before generating an answer. |
+| Tool-using assistant | An AI system that can use external tools such as search, calculators, databases, or software. |
+| AI Agent | A system that can use an AI model, tools, and actions as part of a workflow to accomplish a goal. |
+
+Simple architecture:
+
+User request
+↓
+AI model
+↓
+Decision
+↓
+Tool call
+↓
+Tool result
+↓
+AI model
+↓
+Final response / action
+
+A simple chatbot may only generate a response to the user's message.
+
+An agentic system can go further by deciding that it needs a tool, using the tool, examining the result, and continuing toward the requested goal.
+
+Example:
+
+A travel-planning agent could:
+
+1. Receive a request for a trip.
+2. Search for available transportation.
+3. Search for accommodation.
+4. Compare the information.
+5. Present an itinerary.
+
+### E - Evidence
+
+The assessment requires the explanation to distinguish an LLM, LLM application, RAG system, tool-using assistant, and AI agent.
+
+The evidence should come from reliable technical references describing these system behaviors.
+
+### V - Verification
+
+I will verify the explanation by checking whether the reference describes:
+
+- A language model.
+- Retrieval-augmented generation.
+- Tool use.
+- Multi-step or goal-oriented workflows.
+
+I will focus on system behavior rather than vendor-specific terminology.
+
+### R - Reflection
+
+I learned that an LLM and an AI agent are not the same thing.
+
+An LLM primarily provides model capabilities, while an agentic system can combine a model with tools and actions to work toward a goal.
+
+---
+
+## Q7 - Where Should Humans Still Make the Decision?
+
+### A - Answer
+
+There are situations where AI output should be inspected or approved by a human before action is taken.
+
+| Situation | Possible failure | Required verification | Who approves? |
+|---|---|---|---|
+| Medical information | AI may provide incorrect or incomplete information | Reliable medical source and qualified professional | Qualified professional |
+| Financial decision | AI may misunderstand risks or current information | Financial records and reliable financial sources | Responsible person/professional |
+| Engineering calculation | Incorrect assumptions or calculations may cause failure | Independent calculation, test, or technical documentation | Engineer |
+| Legal information | AI may miss jurisdiction-specific requirements | Current legislation and qualified legal advice | Qualified professional |
+| Safety-critical decision | An incorrect recommendation could cause harm | Standards, procedures, testing, and expert review | Responsible human |
+
+The general rule is:
+
+> The more consequential the decision, the stronger the human review and verification should be.
+
+### E - Evidence
+
+The Week 1 assessment specifically asks for situations where AI output should be inspected or approved and what evidence is required before trusting the result.
+
+Evidence can include:
+
+- Official documentation.
+- Standards.
+- Experimental results.
+- Independent calculations.
+- Qualified professional review.
+
+### V - Verification
+
+For an important decision, I would verify the AI output using evidence appropriate to the specific domain.
+
+I would not use the AI response itself as proof of its own correctness.
+
+### R - Reflection
+
+I learned that AI can assist with a decision without being responsible for the final decision.
+
+Human verification is especially important when an incorrect answer could cause significant consequences.
+
+---
+
+## Q8 - Find AI Around You
+
+### A - Answer
+
+Examples of systems I may encounter in everyday life are:
+
+| System / Feature | AI/ML involvement | Task type | Evidence / Verification | Conclusion |
+|---|---|---|---|---|
+| Face unlock on a smartphone | Likely AI/ML | Recognition | Manufacturer documentation should be checked | AI/ML if supported by evidence |
+| Email spam filtering | AI/ML can be involved | Classification | Check the email provider's technical documentation | AI/ML if supported |
+| Video recommendations | AI/ML can be involved | Recommendation | Check platform documentation | AI/ML if supported |
+| Voice assistant | AI/ML | Recognition + generation | Check official technical documentation | AI/ML if supported |
+| Calculator | Usually traditional software for basic arithmetic | Calculation | The mathematical operation is deterministic | Traditional software |
+
+For commercial products, I should not claim that AI is used internally without evidence.
+
+If reliable public evidence cannot be found, I should write:
+
+> "Not enough public evidence to conclude."
+
+### E - Evidence
+
+The evidence should come from public technical documentation, official product documentation, research papers, or other reliable sources.
+
+Simply saying that a product "looks intelligent" is not sufficient evidence.
+
+### V - Verification
+
+For each example, I would search for public evidence describing the technology used.
+
+For at least one example, I would also ask whether a simpler rule-based system could produce similar behavior.
+
+### R - Reflection
+
+I learned that identifying AI requires more than observing intelligent behavior.
+
+A system may produce useful results using ordinary rules, while another system may use machine learning.
+
+When the internal implementation is not publicly documented, I should clearly state the uncertainty rather than guessing.
+
+---
+
+## Q9 - Prediction, Classification, and Generation
+
+### A - Answer
+
+| Example | Primary task | Reason |
+|---|---|---|
+| A. Predicting house prices | Prediction | The system estimates a numerical value. |
+| B. Detecting whether an image contains a cat | Classification | The system assigns the image to a category such as cat/not cat. |
+| C. Writing an email from a short instruction | Generation | The system generates new text. |
+| D. Predicting whether a customer will cancel a subscription | Prediction | The system estimates a future outcome. |
+| E. Summarizing a research paper | Generation | The system generates a new summary from the source information. |
+| F. Identifying whether a transaction is fraudulent | Classification | The system assigns a category such as fraudulent/not fraudulent. |
+| G. Generating an image from a text description | Generation | The system creates new image content. |
+| H. Predicting the next word/token in a sentence | Prediction | The model predicts a likely next token. |
+
+Next-token prediction is fundamental to modern language models because the model generates a response one token at a time.
+
+A complete application can look like writing, summarization, coding, or question answering, but these outputs can be generated through repeated next-token prediction based on the available context.
+
+### E - Evidence
+
+The assessment defines three broad task types:
+
+- Prediction
+- Classification
+- Generation
+
+It also specifically asks why next-token prediction is fundamental to modern language models.
+
+### V - Verification
+
+I would check whether each example is primarily estimating a value, assigning a category, or generating content.
+
+Some real systems combine multiple task types, so the table identifies the primary behavior.
+
+### R - Reflection
+
+I learned that prediction does not always mean predicting a number.
+
+Classification predicts a category, while generation produces new content.
+
+I also learned that language-model applications can appear very different even though next-token prediction is an important underlying mechanism.
+
+---
+
+## Q10 - Design Your Personal AI Verification Protocol
+
+### A - Answer
+
+My seven-step AI verification protocol is:
+
+### Step 1 - Define the problem
+
+Clearly state what I am trying to solve.
+
+**Why:** Prevents me from asking the AI to solve the wrong problem.
+
+**Failure caught:** Wrong interpretation of the task.
+
+### Step 2 - Ask the AI
+
+Give the AI a clear prompt and provide the necessary context.
+
+**Why:** Better input can produce a more useful response.
+
+**Failure caught:** Missing information or misunderstanding caused by an unclear prompt.
+
+### Step 3 - Inspect the assumptions
+
+Read the AI response carefully and identify assumptions it has made.
+
+**Why:** AI may make assumptions that were not stated in the original problem.
+
+**Failure caught:** Hidden or incorrect assumptions.
+
+### Step 4 - Check the evidence and sources
+
+Identify important factual claims and check them against reliable sources.
+
+**Why:** AI output is not automatically evidence.
+
+**Failure caught:** False, outdated, unsupported, or fabricated information.
+
+### Step 5 - Test the result
+
+Perform an experiment, calculation, comparison, simulation, or other appropriate test.
+
+**Why:** A result should be tested when practical.
+
+**Failure caught:** Errors that may not be obvious from reading the answer.
+
+### Step 6 - Accept, reject, or revise
+
+Based on the evidence, decide whether to accept the result, reject it, or revise it.
+
+**Why:** The AI should support my engineering judgment rather than replace it.
+
+**Failure caught:** Blind acceptance of an incorrect answer.
+
+### Step 7 - Document and reflect
+
+Record what I asked, what the AI produced, what I verified, and what I learned.
+
+**Why:** Makes the work traceable and helps improve future decisions.
+
+**Failure caught:** Losing track of how a result was obtained or verified.
+
+Simple protocol:
+
+```text
+Define
+  ↓
+Ask
+  ↓
+Inspect
+  ↓
+Verify
+  ↓
+Test
+  ↓
+Accept / Reject / Revise
+  ↓
+Document + Reflect
