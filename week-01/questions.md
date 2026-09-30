@@ -224,39 +224,31 @@ I learned that an AI assistant is useful for getting a quick explanation. A sear
 
 ## Q6 - What Is an AI Agent?
 
+## Q6 - What Is an AI Agent?
+
 ### A - Answer
 
 The five concepts can be understood as follows:
 
 | Concept | Simple explanation |
 |---|---|
-| LLM | A language model that processes language and generates text. |
-| LLM application | A software application that uses an LLM to provide a particular function. |
-| RAG system | A system that retrieves relevant information and provides it to the model as context before generating an answer. |
-| Tool-using assistant | An AI system that can use external tools such as search, calculators, databases, or software. |
-| AI Agent | A system that can use an AI model, tools, and actions as part of a workflow to accomplish a goal. |
+| **LLM** | It is a model trained on a large amount of text that can understand and generate language. |
+| **LLM application** | It is a software application that uses an LLM to provide a specific function, such as answering questions or summarizing text. |
+| **RAG system** | Retrieval-Augmented Generation (RAG) it retrieves relevant information from an external source and provides it to the LLM as context before generating an answer. |
+| **Tool-using assistant** | A tool-using assistant is an AI system that can use external tools such as search, calculators, databases, or APIs. |
+| **AI Agent** | An AI agent is a system that uses an AI model, tools, and actions to work toward a particular goal. |
 
-Simple architecture:
+### Simple Architecture
 
-User request
-↓
-AI model
-↓
-Decision
-↓
-Tool call
-↓
-Tool result
-↓
-AI model
-↓
-Final response / action
+User Request → LLM / AI Model → Reasoning / Decision → Tool Selection → Tool Call → Tool Result → LLM / AI Model → Final Response / Action
 
-A simple chatbot may only generate a response to the user's message.
+### How an Agent Is Different from a Simple Chatbot
 
-An agentic system can go further by deciding that it needs a tool, using the tool, examining the result, and continuing toward the requested goal.
+A simple chatbot mainly receives a user message and generates a response.
 
-Example:
+An AI agent can go further by deciding what needs to be done, using tools, examining the results, and taking further actions to achieve a goal.
+
+### Example
 
 A travel-planning agent could:
 
@@ -264,30 +256,21 @@ A travel-planning agent could:
 2. Search for available transportation.
 3. Search for accommodation.
 4. Compare the information.
-5. Present an itinerary.
+5. Prepare an itinerary for the user.
 
 ### E - Evidence
 
-The assessment requires the explanation to distinguish an LLM, LLM application, RAG system, tool-using assistant, and AI agent.
+https://www.ibm.com/think/topics/ai-agents
 
-The evidence should come from reliable technical references describing these system behaviors.
+https://docs.cloud.google.com/docs/generative-ai/glossary
 
 ### V - Verification
 
-I will verify the explanation by checking whether the reference describes:
-
-- A language model.
-- Retrieval-augmented generation.
-- Tool use.
-- Multi-step or goal-oriented workflows.
-
-I will focus on system behavior rather than vendor-specific terminology.
+I compared my explanation with the source. The reference supports the main ideas that an LLM generates and processes language, RAG retrieves external information for the model, and AI agents can use tools and take actions to achieve a goal.
 
 ### R - Reflection
 
-I learned that an LLM and an AI agent are not the same thing.
-
-An LLM primarily provides model capabilities, while an agentic system can combine a model with tools and actions to work toward a goal.
+I learned that an LLM and an AI agent are not the same thing. An LLM mainly provides the language and reasoning capability, while an agent can combine a model with tools and actions. I also learned that RAG mainly adds external information to the model, while an agent can use tools as part of a larger workflow toward a goal.
 
 ---
 
@@ -332,6 +315,7 @@ I would not use the AI response itself as proof of its own correctness.
 I learned that AI can assist with a decision without being responsible for the final decision.
 
 Human verification is especially important when an incorrect answer could cause significant consequences.
+
 
 ---
 
