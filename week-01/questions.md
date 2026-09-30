@@ -28,8 +28,11 @@ AI Agent → uses AI/Generative AI + tools + actions to achieve a goal
 ### E - Evidence
 
 https://www.ibm.com/think/topics/ai-vs-machine-learning-vs-deep-learning-vs-neural-networks
+
 https://www.ibm.com/think/topics/deep-learning
+
 https://en.wikipedia.org/wiki/Machine_learning
+
 https://csrc.nist.gov/glossary/term/artificial_intelligence
 
 ### V - Verification
