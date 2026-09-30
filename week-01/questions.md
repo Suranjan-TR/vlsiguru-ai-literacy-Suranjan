@@ -224,8 +224,6 @@ I learned that an AI assistant is useful for getting a quick explanation. A sear
 
 ## Q6 - What Is an AI Agent?
 
-## Q6 - What Is an AI Agent?
-
 ### A - Answer
 
 The five concepts can be understood as follows:
@@ -278,44 +276,33 @@ I learned that an LLM and an AI agent are not the same thing. An LLM mainly prov
 
 ### A - Answer
 
-There are situations where AI output should be inspected or approved by a human before action is taken.
+AI output should not always be accepted directly. In situations where an incorrect answer can cause serious consequences, a human should inspect or approve the result before taking action.
 
 | Situation | Possible failure | Required verification | Who approves? |
 |---|---|---|---|
-| Medical information | AI may provide incorrect or incomplete information | Reliable medical source and qualified professional | Qualified professional |
-| Financial decision | AI may misunderstand risks or current information | Financial records and reliable financial sources | Responsible person/professional |
-| Engineering calculation | Incorrect assumptions or calculations may cause failure | Independent calculation, test, or technical documentation | Engineer |
-| Legal information | AI may miss jurisdiction-specific requirements | Current legislation and qualified legal advice | Qualified professional |
-| Safety-critical decision | An incorrect recommendation could cause harm | Standards, procedures, testing, and expert review | Responsible human |
-
-The general rule is:
-
-> The more consequential the decision, the stronger the human review and verification should be.
+| Medical information | AI may provide incorrect or incomplete information. | Reliable medical sources and professional review. | Qualified medical professional |
+| Financial decision | AI may miss risks or use outdated information. | Financial records and reliable financial sources. | Responsible person or financial professional |
+| Engineering calculation | Incorrect assumptions or calculations may cause a technical failure. | Independent calculation, testing, and technical documentation. | Engineer |
+| Legal information | AI may miss requirements that apply to a specific situation. | Current laws and professional legal advice. | Qualified legal professional |
+| Safety-critical decision | An incorrect recommendation could cause harm. | Standards, procedures, testing, and expert review. | Responsible human |
 
 ### E - Evidence
 
-The Week 1 assessment specifically asks for situations where AI output should be inspected or approved and what evidence is required before trusting the result.
+The evidence needed before trusting an AI recommendation can include:
 
-Evidence can include:
-
-- Official documentation.
-- Standards.
-- Experimental results.
-- Independent calculations.
-- Qualified professional review.
+- Official documentation
+- Standards
+- Experimental results
+- Independent calculations
+- Professional advice
 
 ### V - Verification
 
-For an important decision, I would verify the AI output using evidence appropriate to the specific domain.
-
-I would not use the AI response itself as proof of its own correctness.
+AI output should be checked against reliable evidence before it is used for an important decision. The AI response itself should not be treated as proof that the information is correct.
 
 ### R - Reflection
 
-I learned that AI can assist with a decision without being responsible for the final decision.
-
-Human verification is especially important when an incorrect answer could cause significant consequences.
-
+I learned that AI can assist humans in making decisions, but humans should remain responsible for important decisions. The need for verification increases when the consequences of an incorrect answer are more serious.
 
 ---
 
