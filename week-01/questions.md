@@ -175,6 +175,8 @@ The evidence for this experiment is:
 5. The reliable SystemVerilog reference used for verification.
 6. The difference found between the AI responses.
 
+Screenshots of the three results are saved in the week-01/evidence folder
+
 ### V - Verification
 
 I compared the three AI responses with a reliable SystemVerilog reference.[https://chipverify.com/systemverilog/systemverilog-data-types-integer-byte]
