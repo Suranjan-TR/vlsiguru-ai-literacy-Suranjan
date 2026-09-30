@@ -85,6 +85,8 @@ I learned that "smart-looking" does not automatically mean AI.
 
 ### A - Answer
 
+LLM - Are advanced artificial intelligence systems trained on massive amounts of text to understand, summarize, and generate human-like language (Ex: OpenAI ChatGPT)
+
 When I send a question to an LLM, the text I provide is called the prompt.
 
 The prompt is broken into smaller pieces called tokens. Tokens can represent words, parts of words, punctuation, or other pieces of text.
@@ -123,31 +125,17 @@ An LLM can produce fluent language even when a statement is false because produc
 
 ### E - Evidence
 
-The required flow from the assessment is:
+https://developers.openai.com/api/docs/concepts
 
-Prompt → Tokens → Model processing → Probability distribution → Next token selection → Generated response.
-
-The assessment also specifically requires explaining why fluent language can still contain false or unsupported statements.
+https://learn.microsoft.com/en-us/dotnet/ai/conceptual/understanding-tokens
 
 ### V - Verification
 
-I will verify the explanation using reliable technical or educational material.
-
-I will check:
-
-- What tokens are.
-- How prompts provide input to language models.
-- The basic idea of next-token prediction.
-- The difference between training and inference.
-- Why generated text should not automatically be treated as verified fact.
+I checked the sources and verified that an LLM processes text as tokens and generates a response by predicting tokens based on the available context. 
 
 ### R - Reflection
 
-I learned that an LLM does not simply search a database and copy an answer.
-
-At a basic level, it processes the available context and predicts tokens that can form a response.
-
-I also learned an important engineering lesson: a fluent answer can still be wrong, so verification is necessary.
+I learned that an LLM does not simply search a database and copy an answer, it processes the available context and predicts tokens that can form a response. Also learned that every generated statement is not correct should verify it.
 
 ---
 
