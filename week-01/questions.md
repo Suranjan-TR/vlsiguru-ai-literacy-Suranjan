@@ -164,6 +164,7 @@ DeepSeek and Gemini gave the same answers. ChatGPT gave a different answer for `
 I then checked the answer against a reliable SystemVerilog reference to determine which answer was correct.
 
 ### E - Evidence
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12365265/
 
 The evidence for this experiment is:
 
