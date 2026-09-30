@@ -191,52 +191,32 @@ I learned that I should verify important technical information using a reliable 
 
 ## Q5 - AI Assistant vs Search vs Authoritative Reference
 
-### A - Answer
+The question I used for the comparison was:
 
-AI assistants, search engines, and authoritative references are useful for different purposes.
+> What does HTTP status code 404 mean?
 
-| Method | Main use | Strength | Limitation |
-|---|---|---|---|
-| AI assistant | Explanation and brainstorming | Can explain a topic in simple language | Can produce incorrect or unsupported information |
-| Search engine | Finding information | Helps locate many sources quickly | Search results are not automatically authoritative |
-| Authoritative reference | Verification | Provides stronger evidence for important claims | May be harder to understand or less convenient |
+I used the same question with an AI assistant, a web search, and an authoritative technical reference.
 
-For this activity, I would use the same technical question with all three methods.
-
-Example question:
-
-> "What is the difference between TCP and UDP?"
-
-I would first ask the AI assistant.
-
-Then I would search the same question using a search engine.
-
-Finally, I would identify an authoritative networking reference and use it to verify the important claims.
+| Method | Finding |
+|---|---|
+| AI Assistant – ChatGPT | Explained that 404 means the requested resource could not be found on the server. |
+| Web Search – Google | Provided multiple sources explaining HTTP 404, including MDN, Wikipedia, and other websites. |
+| Authoritative Reference – MDN Web Docs | States that HTTP 404 means the server cannot find the requested resource. |
 
 ### E - Evidence
 
-The evidence should include:
-
-- The AI answer.
-- Search results and useful sources found.
-- The authoritative reference.
-- The differences found between the sources.
+1. ChatGPT answer for the question.
+2. Google search results for "What does HTTP status code 404 mean?"
+3. MDN Web Docs reference for HTTP 404.
+4. Screenshots of the three results are saved in the `week-01/evidence` folder.
 
 ### V - Verification
 
-I would not treat the AI answer or search-result snippet as final proof.
-
-I would open the relevant source and check whether it actually supports the claim.
-
-For important engineering decisions, I would prefer primary or authoritative documentation where appropriate.
+I compared the ChatGPT answer with the MDN reference. Both gave the same main meaning: HTTP 404 means that the requested resource could not be found. The Google search helped me find different sources, while MDN was used to verify the technical information.
 
 ### R - Reflection
 
-I learned that AI is useful for understanding and brainstorming, while search is useful for discovering information.
-
-An authoritative source is more important when I need to make an important technical decision or verify a factual claim.
-
-The three methods should not automatically be treated as equally reliable.
+I learned that an AI assistant is useful for getting a quick explanation. A search engine helps me find different sources, but I need to check the actual source. An authoritative reference such as MDN is useful when I need to verify a technical fact before making a decision.
 
 ---
 
