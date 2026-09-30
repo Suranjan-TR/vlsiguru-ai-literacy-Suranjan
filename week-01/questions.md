@@ -4,55 +4,41 @@
 
 ### A - Answer
 
-Artificial Intelligence (AI) is the broad field of making computers perform tasks that normally require human intelligence.
+**AI** is the broad field of creating computer system that can perform task by itself which normally require human intelligence like decision making, reasoning, planning, recognition etc.
+example: A smartphone using AI to recognize a person's face for unlocking the phone
 
-Machine Learning (ML) is a part of AI in which computers learn patterns from data and use those patterns to make predictions or decisions.
+**ML** is a part of AI in which computers learn patterns from data and use those patterns to make predictions or decisions instead of being programmed with every rule.
+example: An email system learning from previous messages to identify whether a new email is likely to be spam.
 
-Deep Learning (DL) is a type of machine learning that uses neural networks with multiple layers to learn complex patterns.
+**DL** is a subset of ML where it uses artificial neural network (layers of interconnected nodes) with multiple layers (data move from input layer, through multiple hidden layers that find features, to an output layer) to process data and learn complex pattern automatically.
+example: A phone's camera using a deep-learning model to recognize objects or faces in an image.
 
-Generative AI is AI that can generate new content such as text, images, audio, video, or code.
+**Generative AI** is AI that can generate new content such as text, images, audio, video, or code based on pattern it learned from existing data.
+example: ChatGPT generating an explanation, email, or piece of computer code from a user's prompt.
 
-An AI Agent is a system that can use an AI model together with tools and actions to work toward a particular goal.
+An AI Agent is a system that can use an AI model together with tools and actions to work toward a particular goal. An AI agent relies on four core components working together: a brain, hands, memory, and autonomy. The Brain (LLM) uses advanced models like Claude or GPT to handle all the reasoning, strategic planning, and critical decision-making for a project. The Hands (Tools & APIs) give the agent physical capability in the digital world, allowing it to search the web, execute code, read files, and trigger external applications. Memory combines short-term context tracking with long-term database storage so the system can recall user preferences, remember past actions, and actively learn from its mistakes. Finally, Autonomy provides the independence needed to break a massive goal into smaller sequential steps and execute them flawlessly without requiring constant human supervision or check-ins.
+example: An AI travel agent that receives a request to plan a trip, searches for suitable flights and hotels using available tools, compares the information, and prepares an itinerary.
+
 
 A simple way to understand the relationship is:
-
-AI
-→ Machine Learning
-→ Deep Learning
-
-Generative AI is a type of AI capability that can generate content. It can use deep-learning models, but not every AI system is generative.
-
-AI agents are better understood as systems or workflows that can use models, tools, and actions rather than simply being another level in the hierarchy.
-
-Examples:
-
-- AI: Face recognition on a smartphone.
-- Machine Learning: Email spam detection.
-- Deep Learning: Recognizing objects in an image.
-- Generative AI: Generating an email from an instruction.
-- AI Agent: An AI system that searches for information, evaluates the result, and then performs an action.
+AI → ML → Deep Learning
+Generative AI → uses AI/ML/DL models to generate content
+AI Agent → uses AI/Generative AI + tools + actions to achieve a goal
 
 ### E - Evidence
 
-The Week 1 assessment asks me to distinguish AI, ML, DL, Generative AI, and AI Agents and verify the definitions using reliable sources.
-
-Evidence should come from authoritative technical documentation, educational material, textbooks, or research sources.
+https://www.ibm.com/think/topics/ai-vs-machine-learning-vs-deep-learning-vs-neural-networks
+https://www.ibm.com/think/topics/deep-learning
+https://en.wikipedia.org/wiki/Machine_learning
+https://csrc.nist.gov/glossary/term/artificial_intelligence
 
 ### V - Verification
 
-I will verify that:
-
-1. Machine learning is a part of AI.
-2. Deep learning is a type of machine learning.
-3. Generative AI is concerned with generating content.
-4. An AI agent can use a model, tools, and actions to accomplish a goal.
-5. AI agents should not simply be treated as the next hierarchical level after generative AI.
+I checked the definitions using IBM and NIST. They confirmed that ML is a part of AI and DL is a type of ML. I also checked the definitions of Generative AI and AI Agents using reliable sources, and they matched my understanding.
 
 ### R - Reflection
 
-I learned that AI is the broadest concept. Machine learning is one way of building AI systems, and deep learning is a type of machine learning.
-
-I also learned that Generative AI and AI Agents are not simply the same thing. Generative AI focuses on generating content, while an agent can use a model together with tools and actions to accomplish a goal.
+I learned that AI is the broadest concept. Machine learning is one way of building AI systems, and deep learning is a type of machine learning. Generative AI and AI Agents are not the same thing. Generative AI focuses on generating content, while an agent can use a model together with tools and actions to accomplish a goal.
 
 ---
 
