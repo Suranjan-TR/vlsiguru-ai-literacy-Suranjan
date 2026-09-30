@@ -65,30 +65,19 @@ However, we should not call something AI only because it appears intelligent. We
 
 ### E - Evidence
 
-The five examples can be classified by examining what the system is doing:
+https://developers.google.com/learn/pathways/applied-ml-with-keras
 
-- Fixed mathematical or logical rules indicate traditional software.
-- Learning patterns from data indicates machine learning.
-- Producing new content indicates generative AI.
-- Prediction from learned patterns can be a machine-learning task.
+https://cloud.google.com/use-cases/ai-summarization
+
+https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0238200
 
 ### V - Verification
 
-I would verify the classification by checking reliable technical documentation about the actual system.
-
-For commercial systems such as email or navigation applications, I should not assume that AI is being used internally unless public evidence supports the claim.
+I checked the examples using the sources I listed. They show that AI and machine learning are actually used in applications like spam detection, document summarization, and traffic prediction. This supports my classification of these examples.
 
 ### R - Reflection
 
 I learned that "smart-looking" does not automatically mean AI.
-
-A fixed rule such as:
-
-`IF temperature > 80°C → WARNING`
-
-is ordinary automation.
-
-Machine learning is different because the system can learn patterns from data.
 
 ---
 
