@@ -318,37 +318,48 @@ I identified five systems or features that I encounter in everyday life and chec
 | YouTube recommendations | Yes | Recommendation | YouTube explains that its recommendation system uses information such as watch history, search history, likes, and subscriptions to recommend videos. | AI/ML is involved. |
 | Gmail spam filtering | Yes | Classification | Google states that Gmail uses machine learning to identify spam and learn patterns from user feedback. | AI/ML is involved. |
 | Google Assistant | Yes | Recognition | Google explains that speech recognition models are used to recognize spoken requests and improve speech recognition. | AI/ML is involved. |
-| Phone camera face detection | AI/ML can be involved | Recognition | The exact implementation depends on the phone manufacturer and model. | Not enough public evidence to conclude without checking the specific phone model. |
+| Smartwatch activity recognition | Yes | Recognition / classification | Jubair & Mehenaz, systematic review on smartwatch-ML systems | AI/ML is involved |
 
 ### E - Evidence
 
 The following public sources provide evidence for the examples:
 
-1. **Google Maps:** Google explains that Maps uses machine learning to predict future traffic using historical traffic patterns and live traffic conditions.  
-   Source: https://blog.google/products-and-platforms/products/maps/google-maps-101-how-ai-helps-predict-traffic-and-determine-routes/
+1. **Google Maps:**
+   
+   https://blog.google/products-and-platforms/products/maps/google-maps-101-how-ai-helps-predict-traffic-and-determine-routes/
 
-2. **YouTube:** YouTube explains that its recommendation system uses signals such as watch history, search history, subscriptions, likes, and dislikes to recommend videos.  
-   Source: https://support.google.com/youtube/answer/16089387
+   https://digitaldefynd.com/IQ/google-maps-using-ai-case-study/
 
-3. **Gmail:** Google explains that Gmail uses machine learning to identify spam and learn from user feedback.  
-   Source: https://workspace.google.com/blog/identity-and-security/an-overview-of-gmails-spam-filters
+2. **YouTube:**  
 
-4. **Google Assistant:** Google explains that speech recognition technology and machine-learning-based speech models are used for speech recognition.  
-   Source: https://support.google.com/assistant/answer/11140942
+   https://support.google.com/youtube/answer/16089387
 
-5. **Phone camera face detection:** The exact AI/ML implementation depends on the phone manufacturer and model, so a specific manufacturer's documentation is needed before making a definite conclusion.
+   https://www.geeksforgeeks.org/blogs/does-youtube-use-artificial-intelligence/
+
+3. **Gmail:**  
+
+   https://workspace.google.com/blog/identity-and-security/an-overview-of-gmails-spam-filters
+
+   https://doi.org/10.1016/j.heliyon.2019.e01802
+
+4. **Google Assistant:**   
+
+   https://support.google.com/assistant/answer/11140942
+
+6. **Smartwatch activity recognition:**
+
+   Jubair H, Mehenaz M. Utilizing machine learning algorithms for personalized workout recommendations and monitoring: A systematic review on smartwatch-assisted     exercise prescription. DIGITAL HEALTH. 2025;11. doi:10.1177/20552076251355365
+
+   
 
 ### V - Verification
 
-I checked the examples against public technical documentation rather than assuming that a feature uses AI because it appears intelligent.
+I checked the examples against public documentation 
 
-Google's documentation confirms the use of machine learning in Google Maps traffic prediction, YouTube recommendations, Gmail spam filtering, and speech recognition.
-
-For phone camera face detection, the implementation can vary between manufacturers and models. Therefore, without checking the specific phone documentation, I cannot confirm the exact technology used.
 
 ### R - Reflection
 
-I learned that AI is already used in many everyday applications. Google Maps can use machine learning for prediction, YouTube uses recommendation systems, Gmail uses machine learning for spam detection, and speech recognition systems use machine learning. I also learned that I should check technical evidence before saying that a particular feature uses AI/ML.
+I learned that AI is already used in many everyday applications.
 
 ---
 
