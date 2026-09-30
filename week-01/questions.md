@@ -143,56 +143,48 @@ I learned that an LLM does not simply search a database and copy an answer, it p
 
 ### A - Answer
 
-For this question, the important part is to perform an actual experiment rather than simply provide a theoretical answer.
+For this question, I performed an actual experiment using the same factual question with three AI assistants: DeepSeek, Gemini, and ChatGPT.
 
-I would use the same factual question with two AI assistants.
+The question I asked was:
 
-Example question:
+> "In SystemVerilog, what is the default value of a bit variable, a logic variable, and an int variable when they are declared without initialization?"
 
-> "What is the difference between TCP and UDP?"
+I asked the exact same question to all three AI assistants.
 
-The exact same question should be submitted to both AI assistants.
+The responses were:
 
-The responses should then be compared against a reliable networking reference.
+| AI Tool | bit | logic | int |
+|---|---|---|---|
+| DeepSeek | 0 | X | 0 |
+| Gemini | 0 | X | 0 |
+| ChatGPT | 0 | X | X |
 
-Example experiment table:
+DeepSeek and Gemini gave the same answers. ChatGPT gave a different answer for `int`.
 
-| Prompt | AI Tool | Response Summary | Verified Claim | Evidence | Result |
-|---|---|---|---|---|---|
-| What is the difference between TCP and UDP? | ChatGPT | TCP is connection-oriented and UDP is connectionless. | TCP provides connection-oriented communication. | Reliable networking reference | Correct |
-| What is the difference between TCP and UDP? | Second AI assistant | Summarizes the main differences. | Claims checked against the same reference. | Reliable networking reference | To be recorded after experiment |
-
-I must replace the example entries with the actual responses I receive from the two AI assistants.
+I then checked the answer against a reliable SystemVerilog reference to determine which answer was correct.
 
 ### E - Evidence
 
-The evidence for this question should be:
+The evidence for this experiment is:
 
-1. The exact question I asked.
-2. The actual response from AI assistant 1.
-3. The actual response from AI assistant 2.
-4. The reliable reference used to check the claims.
-5. Any correction or disagreement discovered.
+1. The exact question asked to all three AI assistants.
+2. The actual response from DeepSeek.
+3. The actual response from Gemini.
+4. The actual response from ChatGPT.
+5. The reliable SystemVerilog reference used for verification.
+6. The difference found between the AI responses.
 
 ### V - Verification
 
-I will compare the AI responses with the reliable reference.
-
-I will classify important claims as:
-
-- Correct
-- Unsupported
-- Incomplete
-- Contradictory
-- Incorrect
-
-I should not invent a failure just to prove that AI can be wrong. If both answers are correct, I will document that the experiment did not expose a failure.
+I compared the three AI responses with a reliable SystemVerilog reference.[https://chipverify.com/systemverilog/systemverilog-data-types-integer-byte]
 
 ### R - Reflection
 
-An AI answer can sound convincing because fluent language and factual correctness are not the same thing.
+This experiment showed me that an AI answer can sound confident and still be wrong.
 
-The important lesson is that I should test important claims against appropriate evidence instead of accepting an answer simply because it sounds confident.
+Two AI tools gave the correct answer, while another AI gave an incorrect answer.
+
+I learned that I should verify important technical information using a reliable source instead of trusting an AI answer only because it sounds confident.
 
 ---
 
