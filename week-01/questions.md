@@ -310,41 +310,45 @@ I learned that AI can assist humans in making decisions, but humans should remai
 
 ### A - Answer
 
-Examples of systems I may encounter in everyday life are:
+I identified five systems or features that I encounter in everyday life and checked whether AI/ML is involved.
 
-| System / Feature | AI/ML involvement | Task type | Evidence / Verification | Conclusion |
+| System / Feature | AI/ML involvement | Task type | Evidence / Source | Conclusion |
 |---|---|---|---|---|
-| Face unlock on a smartphone | Likely AI/ML | Recognition | Manufacturer documentation should be checked | AI/ML if supported by evidence |
-| Email spam filtering | AI/ML can be involved | Classification | Check the email provider's technical documentation | AI/ML if supported |
-| Video recommendations | AI/ML can be involved | Recommendation | Check platform documentation | AI/ML if supported |
-| Voice assistant | AI/ML | Recognition + generation | Check official technical documentation | AI/ML if supported |
-| Calculator | Usually traditional software for basic arithmetic | Calculation | The mathematical operation is deterministic | Traditional software |
-
-For commercial products, I should not claim that AI is used internally without evidence.
-
-If reliable public evidence cannot be found, I should write:
-
-> "Not enough public evidence to conclude."
+| Google Maps | Yes | Prediction | Google explains that Maps uses machine learning with historical and live traffic data to predict traffic and travel times. | AI/ML is involved. |
+| YouTube recommendations | Yes | Recommendation | YouTube explains that its recommendation system uses information such as watch history, search history, likes, and subscriptions to recommend videos. | AI/ML is involved. |
+| Gmail spam filtering | Yes | Classification | Google states that Gmail uses machine learning to identify spam and learn patterns from user feedback. | AI/ML is involved. |
+| Google Assistant | Yes | Recognition | Google explains that speech recognition models are used to recognize spoken requests and improve speech recognition. | AI/ML is involved. |
+| Phone camera face detection | AI/ML can be involved | Recognition | The exact implementation depends on the phone manufacturer and model. | Not enough public evidence to conclude without checking the specific phone model. |
 
 ### E - Evidence
 
-The evidence should come from public technical documentation, official product documentation, research papers, or other reliable sources.
+The following public sources provide evidence for the examples:
 
-Simply saying that a product "looks intelligent" is not sufficient evidence.
+1. **Google Maps:** Google explains that Maps uses machine learning to predict future traffic using historical traffic patterns and live traffic conditions.  
+   Source: https://blog.google/products-and-platforms/products/maps/google-maps-101-how-ai-helps-predict-traffic-and-determine-routes/
+
+2. **YouTube:** YouTube explains that its recommendation system uses signals such as watch history, search history, subscriptions, likes, and dislikes to recommend videos.  
+   Source: https://support.google.com/youtube/answer/16089387
+
+3. **Gmail:** Google explains that Gmail uses machine learning to identify spam and learn from user feedback.  
+   Source: https://workspace.google.com/blog/identity-and-security/an-overview-of-gmails-spam-filters
+
+4. **Google Assistant:** Google explains that speech recognition technology and machine-learning-based speech models are used for speech recognition.  
+   Source: https://support.google.com/assistant/answer/11140942
+
+5. **Phone camera face detection:** The exact AI/ML implementation depends on the phone manufacturer and model, so a specific manufacturer's documentation is needed before making a definite conclusion.
 
 ### V - Verification
 
-For each example, I would search for public evidence describing the technology used.
+I checked the examples against public technical documentation rather than assuming that a feature uses AI because it appears intelligent.
 
-For at least one example, I would also ask whether a simpler rule-based system could produce similar behavior.
+Google's documentation confirms the use of machine learning in Google Maps traffic prediction, YouTube recommendations, Gmail spam filtering, and speech recognition.
+
+For phone camera face detection, the implementation can vary between manufacturers and models. Therefore, without checking the specific phone documentation, I cannot confirm the exact technology used.
 
 ### R - Reflection
 
-I learned that identifying AI requires more than observing intelligent behavior.
-
-A system may produce useful results using ordinary rules, while another system may use machine learning.
-
-When the internal implementation is not publicly documented, I should clearly state the uncertainty rather than guessing.
+I learned that AI is already used in many everyday applications. Google Maps can use machine learning for prediction, YouTube uses recommendation systems, Gmail uses machine learning for spam detection, and speech recognition systems use machine learning. I also learned that I should check technical evidence before saying that a particular feature uses AI/ML.
 
 ---
 
