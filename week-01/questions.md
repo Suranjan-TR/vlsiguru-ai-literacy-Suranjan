@@ -369,42 +369,36 @@ I learned that AI is already used in many everyday applications.
 
 | Example | Primary task | Reason |
 |---|---|---|
-| A. Predicting house prices | Prediction | The system estimates a numerical value. |
-| B. Detecting whether an image contains a cat | Classification | The system assigns the image to a category such as cat/not cat. |
-| C. Writing an email from a short instruction | Generation | The system generates new text. |
-| D. Predicting whether a customer will cancel a subscription | Prediction | The system estimates a future outcome. |
-| E. Summarizing a research paper | Generation | The system generates a new summary from the source information. |
-| F. Identifying whether a transaction is fraudulent | Classification | The system assigns a category such as fraudulent/not fraudulent. |
-| G. Generating an image from a text description | Generation | The system creates new image content. |
-| H. Predicting the next word/token in a sentence | Prediction | The model predicts a likely next token. |
+| A. Predicting house prices | **Prediction** | The system estimates a numerical value. |
+| B. Detecting whether an image contains a cat | **Classification** | The system assigns the image to a category such as cat/not cat. |
+| C. Writing an email from a short instruction | **Generation** | The system generates new text. |
+| D. Predicting whether a customer will cancel a subscription | **Prediction** | The system estimates a future outcome. |
+| E. Summarizing a research paper | **Generation** | The system generates a new summary from the source information. |
+| F. Identifying whether a transaction is fraudulent | **Classification** | The system assigns a category such as fraudulent/not fraudulent. |
+| G. Generating an image from a text description | **Generation** | The system creates new image content. |
+| H. Predicting the next word/token in a sentence | **Prediction** | The model predicts a likely next token. |
 
-Next-token prediction is fundamental to modern language models because the model generates a response one token at a time.
+Next-token prediction is fundamental to modern language models because they generate text, one token at a time. The model predicts the next likely token based on the input and the tokens it has already generated.
 
-A complete application can look like writing, summarization, coding, or question answering, but these outputs can be generated through repeated next-token prediction based on the available context.
+For example:
+
+"The sky is" → "blue" → "today" → ...
+
+By repeating this process, the model can generate complete responses for tasks such as writing, summarization, coding, and question answering.
 
 ### E - Evidence
 
-The assessment defines three broad task types:
+I checked a research paper on next-token prediction in large language models. 
 
-- Prediction
-- Classification
-- Generation
-
-It also specifically asks why next-token prediction is fundamental to modern language models.
+https://arxiv.org/html/2408.13442v2
 
 ### V - Verification
 
-I would check whether each example is primarily estimating a value, assigning a category, or generating content.
-
-Some real systems combine multiple task types, so the table identifies the primary behavior.
+I checked the research paper and verified that next-token prediction is a fundamental task in modern language models. The paper explains that an LLM uses the preceding tokens to predict the subsequent token.
 
 ### R - Reflection
 
-I learned that prediction does not always mean predicting a number.
-
-Classification predicts a category, while generation produces new content.
-
-I also learned that language-model applications can appear very different even though next-token prediction is an important underlying mechanism.
+I learned that prediction does not always mean predicting a number. Classification predicts a category, while generation produces new content. Also learned LLM uses the preceding tokens to predict the subsequent token.
 
 ---
 
