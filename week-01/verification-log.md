@@ -1,32 +1,29 @@
-vlsiguru-ai-literacy-Suranjan/week-01
-/verification-log.md
-Suranjan-TR
-Suranjan-TR
-Create verification-log.md
-d964f5e
- · 
-3 days ago
-vlsiguru-ai-literacy-Suranjan/week-01
-/verification-log.md
+# Week 01 Verification Log
 
-Preview
+| **Date** | **Question / Claim** | **AI Tool** | **Claim Checked** | **Verification Source / Experiment** | **Result** |
+|---|---|---|---|---|---|
+| 24-09-2026 | AI is a broad field that includes Machine Learning | ChatGPT | Relationship between AI and ML | IBM / NIST | Verified |
+| 24-09-2026 | Deep Learning is a type of Machine Learning | ChatGPT | Relationship between ML and DL | IBM | Verified |
+| 24-09-2026 | Generative AI can create new content | ChatGPT | Meaning of Generative AI | IBM / reliable AI documentation | Verified |
+| 28-09-2026 | AI agents can use tools and actions to achieve goals | ChatGPT | Meaning of AI agents | IBM / Google Cloud documentation | Verified |
+| 28-09-2026 | `bit`, `logic`, and `int` have specific default values in SystemVerilog | ChatGPT, DeepSeek, Gemini | Default values of SystemVerilog data types | SystemVerilog technical reference | ChatGPT answer differed; corrected after verification |
+| 28-09-2026 | HTTP 404 means the requested resource could not be found | ChatGPT | Meaning of HTTP 404 | MDN Web Docs | Verified |
+| 01-10-2026 | Next-token prediction is fundamental to modern language models | ChatGPT | How LLMs generate text | arXiv research paper | Verified |
 
-Code
+## Notes
 
-Blame
-22 lines (14 loc) · 1.29 KB
-Week 01 Verification Log
-Date	Question / claim	AI tool	Claim checked	Verification source / experiment	Result
-28-09-2026	AI is a broad field that includes machine learning	ChatGPT	Relationship between AI and ML	Course material / authoritative source	Verified
-28-09-2026	Deep Learning is a type of Machine Learning	ChatGPT	Relationship between ML and DL	Course material / authoritative source	Verified
-28-09-2026	Generative AI can create new content	ChatGPT	Meaning of Generative AI	Course material / authoritative source	Verified
-28-09-2026	AI agents can use tools and actions to achieve goals	ChatGPT	Meaning of AI agents	Course material / authoritative source	Needs further verification
-Notes
-What did the AI get right?
-The AI provided useful explanations and examples that helped me understand the basic AI concepts.
+### What did the AI get right?
 
-What did it get wrong or leave unsupported?
-Some explanations need to be checked against reliable sources instead of being accepted automatically.
+The AI provided useful explanations and examples that helped me understand the concepts. Many of the basic explanations matched the reliable sources I checked.
 
-What did I learn about verification?
-I learned that an AI-generated answer should not automatically be treated as correct. Important technical claims should be checked using reliable sources, documentation, experiments, or other evidence.
+### What did it get wrong or leave unsupported?
+
+In the SystemVerilog experiment, ChatGPT gave an incorrect value for the `int` data type. DeepSeek and Gemini gave the value that matched the technical reference.
+
+This showed me that an AI response can sound confident even when one of its technical claims is incorrect.
+
+### What did I learn about verification?
+
+I learned that an AI-generated answer should not automatically be treated as correct. Important technical claims should be checked using reliable sources, documentation, calculations, experiments, or other evidence.
+
+I also learned that different AI tools can give different answers to the same question, so comparing answers and checking the original source is useful.
