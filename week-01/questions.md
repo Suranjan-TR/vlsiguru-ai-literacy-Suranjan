@@ -404,6 +404,8 @@ I learned that prediction does not always mean predicting a number. Classificati
 
 ## Q10 - Design Your Personal AI Verification Protocol
 
+## Q10 - Design Your Personal AI Verification Protocol
+
 ### A - Answer
 
 My seven-step AI verification protocol is:
@@ -412,71 +414,103 @@ My seven-step AI verification protocol is:
 
 Clearly state what I am trying to solve.
 
-**Why:** Prevents me from asking the AI to solve the wrong problem.
+**Why:** It helps make sure the AI is solving the correct problem.
 
 **Failure caught:** Wrong interpretation of the task.
 
 ### Step 2 - Ask the AI
 
-Give the AI a clear prompt and provide the necessary context.
+Give the AI the necessary information and ask it to solve the problem.
 
-**Why:** Better input can produce a more useful response.
+**Why:** Providing the correct information helps the AI give a relevant answer.
 
-**Failure caught:** Missing information or misunderstanding caused by an unclear prompt.
+**Failure caught:** Missing information or misunderstanding caused by an unclear question.
 
 ### Step 3 - Inspect the assumptions
 
-Read the AI response carefully and identify assumptions it has made.
+Check whether the AI has made any assumptions and whether they are correct.
 
-**Why:** AI may make assumptions that were not stated in the original problem.
+**Why:** AI may assume information that was not provided in the original problem.
 
 **Failure caught:** Hidden or incorrect assumptions.
 
 ### Step 4 - Check the evidence and sources
 
-Identify important factual claims and check them against reliable sources.
+Check important information against reliable sources. If the AI provides citations, check whether they actually support the answer.
 
-**Why:** AI output is not automatically evidence.
+**Why:** An AI answer can sound confident without being supported by reliable evidence.
 
-**Failure caught:** False, outdated, unsupported, or fabricated information.
+**Failure caught:** Unsupported, false, outdated, or fabricated information.
 
 ### Step 5 - Test the result
 
-Perform an experiment, calculation, comparison, simulation, or other appropriate test.
+Independently check the result using a calculation, experiment, comparison, simulation, or other suitable method.
 
-**Why:** A result should be tested when practical.
+**Why:** Independent testing helps determine whether the AI result is correct.
 
-**Failure caught:** Errors that may not be obvious from reading the answer.
+**Failure caught:** Calculation or reasoning errors in the AI response.
 
-### Step 6 - Accept, reject, or revise
+### Step 6 - Check the result against my situation
 
-Based on the evidence, decide whether to accept the result, reject it, or revise it.
+Check whether the result is suitable for my specific problem, conditions, or project.
 
-**Why:** The AI should support my engineering judgment rather than replace it.
+**Why:** A result can be correct in general but may not apply to my particular situation.
 
-**Failure caught:** Blind acceptance of an incorrect answer.
+**Failure caught:** Contextual errors or inappropriate use of the result.
 
-### Step 7 - Document and reflect
+### Step 7 - Accept, reject, or revise
 
-Record what I asked, what the AI produced, what I verified, and what I learned.
+Based on the evidence and testing, decide whether to accept the result, reject it, or revise it.
 
-**Why:** Makes the work traceable and helps improve future decisions.
+**Why:** AI should support my decision-making rather than replace it.
 
-**Failure caught:** Losing track of how a result was obtained or verified.
+**Failure caught:** Blindly accepting an incorrect or unsuitable result.
 
-Simple protocol:
+### Simple Protocol
 
-```text
-Define
-  ↓
-Ask
-  ↓
-Inspect
-  ↓
-Verify
-  ↓
-Test
-  ↓
-Accept / Reject / Revise
-  ↓
-Document + Reflect
+Define the Problem -> Ask the AI -> Inspect the Assumptions -> Check Evidence / Sources  -> Test the Result  -> Check Against My Situation  -> Accept / Reject / Revise  
+
+### Worked Example - Cr(VI) Detection
+
+Suppose I use a calibration equation from my Cr(VI) detection experiment:
+
+> Absorbance = 0.02 × Concentration + 0.01
+
+I measure an absorbance of 0.21 and ask an AI to calculate the Cr(VI) concentration.
+
+I apply my verification protocol as follows:
+
+1. **Define the problem**  
+   I need to find the Cr(VI) concentration from the measured absorbance using the calibration equation.
+
+2. **Ask the AI**  
+   I provide the calibration equation and measured absorbance to the AI and ask it to calculate the concentration.
+
+3. **Inspect the assumptions**  
+   I check whether the AI has used the correct calibration equation, absorbance value, and units.
+
+4. **Check the evidence and sources**  
+   I check that the calibration equation is the one obtained from my experimental calibration data and not an equation assumed by the AI.
+
+5. **Test the result**  
+   I calculate the concentration independently:
+
+   `0.21 = 0.02 × Concentration + 0.01`
+
+   `0.20 = 0.02 × Concentration`
+
+   `Concentration = 10`
+
+   Therefore, the calculated Cr(VI) concentration is **10 units of concentration** according to the calibration equation.
+
+6. **Check the result against my situation**  
+   I check whether the calculated concentration is within the calibration range and whether the units are correct for my experiment.
+
+7. **Accept, reject, or revise**  
+   If the AI also gives 10 and the result is within the valid calibration range with the correct units, I accept the result. Otherwise, I revise or reject it.
+
+### R - Reflection
+
+This example showed me that AI can help with a calculation, but I should independently verify the result before accepting it. I also learned that checking the equation, assumptions, units, and calibration range is important when using AI for engineering work.
+
+---
