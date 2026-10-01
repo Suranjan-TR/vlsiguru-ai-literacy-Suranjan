@@ -161,9 +161,8 @@ The responses were:
 
 DeepSeek and Gemini gave the same answers. ChatGPT gave a different answer for `int`.
 
-I then checked the answer against a reliable SystemVerilog reference to determine which answer was correct.
-
 ### E - Evidence
+
 https://pmc.ncbi.nlm.nih.gov/articles/PMC12365265/
 
 The evidence for this experiment is:
@@ -401,8 +400,6 @@ I checked the research paper and verified that next-token prediction is a fundam
 I learned that prediction does not always mean predicting a number. Classification predicts a category, while generation produces new content. Also learned LLM uses the preceding tokens to predict the subsequent token.
 
 ---
-
-## Q10 - Design Your Personal AI Verification Protocol
 
 ## Q10 - Design Your Personal AI Verification Protocol
 
