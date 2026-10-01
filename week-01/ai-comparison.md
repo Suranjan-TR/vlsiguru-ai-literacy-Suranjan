@@ -2,7 +2,9 @@
 
 ## Common question
 
-What is the difference between Artificial Intelligence, Machine Learning, Deep Learning, Generative AI, and AI Agents?
+> In SystemVerilog, what is the default value of a bit variable, a logic variable, and an int variable when they are declared without initialization?
+
+I asked the same question to three AI assistants.
 
 ## Tool 1
 
@@ -10,49 +12,83 @@ Name: ChatGPT
 
 ### Answer summary
 
-ChatGPT explained the relationship between AI, Machine Learning, Deep Learning, Generative AI, and AI Agents using definitions and examples.
+ChatGPT answered:
+
+- `bit` → `0`
+- `logic` → `X`
+- `int` → `X`
 
 ### Strengths
 
-- Easy to understand
-- Gives examples
-- Explains relationships between concepts
-- Allows follow-up questions
+- Gave a direct answer.
+- Presented the values clearly.
+- Explained the difference between the data types.
 
 ### Weaknesses
 
-- Answers still need verification
-- May provide incomplete or inaccurate information
-- Does not automatically provide authoritative evidence for every claim
+- The answer for `int` was incorrect.
+- The response sounded confident even though one of the values was wrong.
 
 ## Tool 2
 
-Name: [Enter the second AI tool you used]
+Name: DeepSeek
 
 ### Answer summary
 
-[Write a short summary of the answer.]
+DeepSeek answered:
+
+- `bit` → `0`
+- `logic` → `X`
+- `int` → `0`
 
 ### Strengths
 
-[Write what the tool did well.]
+- Gave a direct answer.
+- The values matched the SystemVerilog reference I used for verification.
 
 ### Weaknesses
 
-[Write what the tool did poorly or what needed verification.]
+- The answer still needed to be checked against a reliable technical source.
+
+## Tool 3
+
+Name: Gemini
+
+### Answer summary
+
+Gemini answered:
+
+- `bit` → `0`
+- `logic` → `X`
+- `int` → `0`
+
+### Strengths
+
+- Gave a direct answer.
+- The values matched the SystemVerilog reference I used for verification.
+
+### Weaknesses
+
+- The answer still needed independent verification.
 
 ## Verification source
 
-[Enter the source you used to verify the answers.]
+I compared the answers with a SystemVerilog technical reference.
+
+Source:
+
+https://chipverify.com/systemverilog/systemverilog-data-types-integer-byte
+
+The reference was used to verify the default values of the SystemVerilog data types.
 
 ## Final comparison
 
-- Accuracy: [Your observation]
-- Traceability: [Your observation]
-- Explanation quality: [Your observation]
-- Ease of verification: [Your observation]
-- Claims that required correction or qualification: [Your observation]
+- **Accuracy:** DeepSeek and Gemini matched the verified values, while ChatGPT gave an incorrect value for `int`.
+- **Traceability:** The answers themselves were not sufficient evidence, so I checked them against a technical reference.
+- **Explanation quality:** All three tools gave understandable answers, but a clear explanation does not guarantee that every value is correct.
+- **Ease of verification:** The values were easy to verify using a SystemVerilog reference.
+- **Claims that required correction or qualification:** The `int` value in the ChatGPT response required correction.
 
 ## Lesson
 
-I learned that AI assistants are useful for learning and exploring ideas, but their answers should be checked before I use them for important technical work.
+I learned that different AI assistants can give different answers to the same technical question. Even when an answer sounds confident and clear, it should be checked against a reliable technical source before I use it in my work.
