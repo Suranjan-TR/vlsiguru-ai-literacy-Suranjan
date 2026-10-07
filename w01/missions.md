@@ -40,3 +40,56 @@ However, fixed rules would be limited because real-world behaviour depends on ma
 ### Conclusion
 
 I learned that I already interact with AI-related features in everyday applications. Google Maps uses AI/ML for prediction, YouTube uses it for recommendations, and Gmail uses it for spam classification. I also learned that a simple rule-based program can produce similar behaviour in some cases, but it would be more limited than a system that learns patterns from data.
+
+
+## Mission 2 - AI, ML, GenAI: Put the Pieces Together
+
+### Simple Relationship Diagram
+
+```text
+Artificial Intelligence (AI)
+│
+├── Machine Learning (ML)
+│   │
+│   └── Deep Learning (DL)
+│
+└── Other AI approaches
+
+Generative AI (GenAI)
+│
+└── Uses AI models, commonly Deep Learning,
+    to generate new content
+```
+
+### 1. Artificial Intelligence (AI)
+
+AI is the broad field of creating computer systems that can perform tasks that normally require human intelligence, such as recognition, decision-making, reasoning, and problem-solving.
+
+**Example:** A smartphone recognizing a person's face to unlock the phone.
+
+### 2. Machine Learning (ML)
+
+Machine Learning is a part of AI in which computers learn patterns from data and use those patterns to make predictions or decisions instead of being programmed with every rule.
+
+**Example:** An email system learning patterns from previous emails to identify spam.
+
+### 3. Deep Learning (DL)
+
+Deep Learning is a type of Machine Learning that uses neural networks with multiple layers to learn complex patterns from data.
+
+**Example:** A camera using a deep-learning model to recognize objects or faces in an image.
+
+### 4. Generative AI (GenAI)
+
+Generative AI is AI that can generate new content such as text, images, audio, video, or code based on patterns learned from existing data.
+
+**Example:** ChatGPT generating an explanation or computer code from a user's prompt.
+
+### AI Explanation Check
+
+I asked an AI assistant to explain my diagram. It confirmed that AI is the broad field, Machine Learning is a part of AI, and Deep Learning is a type of Machine Learning. It also explained that Generative AI focuses on generating new content and commonly uses deep-learning models.
+
+I checked the explanation and corrected the diagram so that Generative AI is not shown as a strict fourth level below Deep Learning.
+
+
+
