@@ -178,3 +178,44 @@ One clarification I made is that an LLM should not be thought of as simply searc
 ### Conclusion
 
 I learned that an LLM produces an answer by processing the prompt as tokens and generating output step by step. The basic mental model is to think of the model as predicting likely next tokens based on the previous context.
+
+
+## Mission 5 - Can AI Be Confidently Wrong?
+
+### Prompt
+
+I asked an AI assistant:
+
+> In SystemVerilog, what is the default value of a `bit` variable, a `logic` variable, and an `int` variable when they are declared without initialization?
+
+### AI Answer
+
+I asked the same question to three AI assistants.
+
+| AI Tool | `bit` | `logic` | `int` |
+|---|---:|---:|---:|
+| DeepSeek | 0 | X | 0 |
+| Gemini | 0 | X | 0 |
+| ChatGPT | 0 | X | X |
+
+### Verification Source
+
+I checked the answers against a SystemVerilog reference. SystemVerilog has two-state and four-state data types. `bit` is a two-state type, while `logic` is a four-state type. The default value of a two-state variable is `0`, while a four-state variable defaults to `X`.
+
+Source: https://mail.chipverify.com/systemverilog/systemverilog-quick-refresher
+
+### Result
+
+The correct values are:
+
+| Variable | Correct default value |
+|---|---:|
+| `bit` | `0` |
+| `logic` | `X` |
+| `int` | `0` |
+
+DeepSeek and Gemini gave the correct answer. ChatGPT gave an incorrect answer for `int`.
+
+### Lesson
+
+This experiment showed me that an AI can give an answer confidently even when part of the answer is wrong. I learned that I should verify important technical information using a reliable source instead of trusting an answer only because it sounds confident.
