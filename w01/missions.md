@@ -92,4 +92,30 @@ I asked an AI assistant to explain my diagram. It confirmed that AI is the broad
 I checked the explanation and corrected the diagram so that Generative AI is not shown as a strict fourth level below Deep Learning.
 
 
+## Mission 3 - Is It Really AI?
 
+### Classification
+
+| Example | Classification | Reason |
+|---|---|---|
+| Calculator | Rule-based / Traditional Software | It follows mathematical procedures programmed into the calculator. |
+| Temperature warning rule | Rule-based / Traditional Software | The programmer explicitly defines the rule, such as `If temperature > 80°C, display WARNING`. |
+| Spam filter | ML-based AI | It can learn patterns from previous emails and use them to classify new emails as spam or not spam. |
+| Document summariser | Generative AI | It generates a new summary based on the information in the document. |
+| Traffic ETA prediction | ML-based AI | It can learn patterns from traffic and historical data to predict estimated travel time. |
+
+### Easy Classification
+
+The calculator was easy to classify because it follows predefined mathematical procedures. The programmer determines how the calculation is performed, so it does not need to learn patterns from data.
+
+### Difficult Classification
+
+The spam filter was more difficult because it may look like a simple set of rules. However, modern spam filters can use machine learning to learn patterns from previous emails and classify new messages.
+
+### My Own Example
+
+**Automatic brightness control in a smartphone:** This can be an ML-based AI system when it learns from the user's brightness adjustments and environmental conditions to predict the brightness level the user is likely to prefer.
+
+### Conclusion
+
+I learned that a system looking intelligent does not automatically mean it uses AI. Traditional software follows explicitly programmed rules, while machine-learning systems learn patterns from data. Generative AI goes further by generating new content.
