@@ -262,8 +262,114 @@ An agentic system could:
 
 1. Understand the user's request.
 2. Search for suitable places to visit.
-3. Check travel times and other information using tools.
-4. Compare the results.
-5. Prepare a three-day itinerary.
+
+## Mission 7 - What Actually Runs AI?
+
+### 1. What is a CPU and what is it good at?
+
+A CPU (Central Processing Unit) is a general-purpose processor that can perform many different types of tasks. It is good at handling sequential operations, decision-making, and a wide variety of software tasks.
+
+### 2. What is a GPU and why is it useful for AI workloads?
+
+A GPU (Graphics Processing Unit) is a processor designed to perform many calculations in parallel. AI workloads often involve large numbers of similar mathematical operations, so GPUs can process many of them at the same time.
+
+### 3. What is an NPU / AI Accelerator and why do modern systems use specialised hardware?
+
+An NPU (Neural Processing Unit) or AI accelerator is specialised hardware designed to efficiently perform common AI operations such as matrix and tensor calculations.
+
+Modern systems use specialised hardware because it can perform AI workloads more efficiently than relying only on a general-purpose CPU. This can improve performance and reduce power consumption.
+
+### 4. What does parallel computation mean?
+
+Parallel computation means performing multiple calculations at the same time instead of performing every calculation one after another.
+
+For example, if a large dataset requires many independent calculations, a processor can divide the work into smaller parts and process several parts simultaneously.
+
+### 5. Why does AI depend so heavily on compute and memory?
+
+AI models can contain a very large number of parameters and require many mathematical operations. The hardware must perform these calculations and move large amounts of data between processing units and memory.
+
+Therefore, both computational power and memory capacity/bandwidth can strongly affect AI performance.
+
+### 6. Training vs Inference
+
+| Aspect | Training | Inference |
+|---|---|---|
+| Purpose | The model learns patterns from data. | The trained model produces an output from new input. |
+| Computation | Usually requires a very large amount of computation. | Usually requires less computation than training for each individual request. |
+| Hardware | GPUs and specialised accelerators are commonly useful. | CPUs, GPUs, NPUs, or other accelerators can be used depending on the workload. |
+| Example | Training a model using a large dataset of images. | Using the trained model to classify a new image. |
+
+### 7. Simple AI Computing Flow
+
+```text
+AI Application
+      ↓
+AI Model
+      ↓
+Software / Framework
+      ↓
+CPU / GPU / AI Accelerator
+      ↓
+Memory
+```
+
+The AI application uses an AI model. Software or frameworks provide the interface for running the model, while the CPU, GPU, or accelerator performs the required computations and uses memory to store and access data.
+
+### 8. Real AI Workload Example
+
+**Image Classification**
+
+Suppose an AI system needs to identify whether an image contains a cat or a dog.
+
+A GPU would be useful because image-processing models perform many similar mathematical operations on large amounts of data. These operations can be performed in parallel, allowing the GPU to process the workload efficiently.
+
+### Conclusion
+
+I learned that an AI model is software, but it needs hardware to perform its computations. CPUs provide general-purpose computing, while GPUs and specialised AI accelerators can efficiently handle highly parallel AI workloads. Memory is also important because AI models and their data need to be stored and accessed during computation.
+
+The basic mental model is:
+
+**AI Model → Computation → Hardware → Memory → Performance**
+4. Check travel times and other information using tools.
+5. Compare the results.
+6. Prepare a three-day itinerary.
 
 The important difference is that a simple chatbot mainly generates an answer, while an agentic system can use tools, examine the results, and take multiple steps toward a goal.
+
+## Mission 8 - Where Could This Help My VLSI Track?
+
+### VLSI Track: Design Verification (DV)
+
+| Area | Task | How AI Might Help | Why Human Knowledge Still Matters |
+|---|---|---|---|
+| Design Verification (DV) | Debugging and analysing simulation failures | AI could analyse simulation logs and error messages, identify possible causes, and help suggest where the problem may be in the testbench or RTL. | Human knowledge is still needed to understand the design specification, decide whether the suggested cause is correct, and verify the fix. |
+
+### Conclusion
+
+AI can help automate repetitive debugging and data-analysis tasks in Design Verification, but domain knowledge is still important because an engineer must understand the design, verification requirements, and whether the AI-generated suggestions are actually correct.
+
+## Mission 9 - Build My Own AI-Use Rule
+
+### My 5-Rule AI Working Agreement
+
+1. **Use AI as a learning assistant, not as the final authority.**  
+   I will use AI to understand concepts, generate ideas, and explore possible solutions, but I will not blindly accept its answers.
+
+2. **Verify important technical information.**  
+   I will check important engineering facts, calculations, code, and technical claims using reliable sources or independent testing before using them.  
+   
+   **Why:** In Mission 5, I found that ChatGPT gave an incorrect answer for the default value of an `int` variable in SystemVerilog. This showed me that an AI answer can sound confident and still be wrong.
+
+3. **Do not share confidential or proprietary information.**  
+   I will not provide confidential project data, company information, passwords, private documents, source code, or other proprietary information to AI tools.
+
+4. **Understand and test AI-generated code or solutions before using them.**  
+   I will read, understand, and test AI-generated code instead of copying and using it without checking.
+
+5. **Take responsibility for my final work.**  
+   I will make sure that I understand the final answer, code, calculation, or explanation that I submit. I will verify and correct AI-generated content when necessary, and I will take responsibility for the final work.
+
+### My Rule
+
+My goal is not to completely trust or completely avoid AI. I will use AI as a tool for learning and problem-solving, while knowing when verification is necessary and taking responsibility for the final result.
