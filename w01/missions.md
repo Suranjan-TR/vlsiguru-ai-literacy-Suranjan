@@ -219,3 +219,51 @@ DeepSeek and Gemini gave the correct answer. ChatGPT gave an incorrect answer fo
 ### Lesson
 
 This experiment showed me that an AI can give an answer confidently even when part of the answer is wrong. I learned that I should verify important technical information using a reliable source instead of trusting an answer only because it sounds confident.
+
+## Mission 6 - Chatbot or Agent?
+
+### Comparison
+
+| Concept | Simple Explanation |
+|---|---|
+| **LLM** | A language model trained on a large amount of text that can understand and generate language. |
+| **AI Application** | A software application that uses an AI model to perform a specific task, such as answering questions or summarizing documents. |
+| **RAG** | Retrieval-Augmented Generation (RAG) retrieves relevant information from an external source and provides it to the LLM as context before generating an answer. |
+| **Tool-Using Assistant** | An AI system that can use external tools such as search, calculators, databases, or APIs to complete a task. |
+| **AI Agent** | An AI system that can use a model, tools, and actions to work toward a particular goal by deciding what steps are needed. |
+
+### Simple Flow
+
+```text
+User Request
+     ↓
+AI Model / LLM
+     ↓
+Decide what information or tool is needed
+     ↓
+Retrieval / Tool
+     ↓
+Tool or Retrieval Result
+     ↓
+AI Model / LLM
+     ↓
+Final Response / Action
+```
+
+### Everyday Example of an Agentic Workflow
+
+**Travel planning assistant**
+
+A user asks:
+
+> "Plan a 3-day trip to Bengaluru."
+
+An agentic system could:
+
+1. Understand the user's request.
+2. Search for suitable places to visit.
+3. Check travel times and other information using tools.
+4. Compare the results.
+5. Prepare a three-day itinerary.
+
+The important difference is that a simple chatbot mainly generates an answer, while an agentic system can use tools, examine the results, and take multiple steps toward a goal.
