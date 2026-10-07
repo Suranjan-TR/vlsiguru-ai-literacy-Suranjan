@@ -119,3 +119,62 @@ The spam filter was more difficult because it may look like a simple set of rule
 ### Conclusion
 
 I learned that a system looking intelligent does not automatically mean it uses AI. Traditional software follows explicitly programmed rules, while machine-learning systems learn patterns from data. Generative AI goes further by generating new content.
+
+
+## Mission 4 - Make AI Explain Itself, Then Test It
+
+### How an LLM Produces an Answer
+
+When I send a prompt to an LLM, the text is first divided into smaller units called **tokens**. The model processes these tokens along with the available context and predicts what token is likely to come next. It generates the response one token at a time until the answer is complete.
+
+For example:
+
+```text
+Prompt: The sky is
+
+Model predicts: blue
+
+Then: The sky is blue
+
+Model predicts the next token again...
+```
+
+The model continues this process to produce the complete response.
+
+### Beginner Explanation
+
+A simple way to understand an LLM is to think of it as a very advanced text prediction system.
+
+If I type:
+
+> "The sky is"
+
+the model may predict that **"blue"** is a likely next token because it has learned patterns from large amounts of text.
+
+It then uses the text generated so far to predict the next token. By repeating this process, it produces a complete answer.
+
+### Important Claims I Checked
+
+**Claim 1: Text is processed as tokens.**
+
+OpenAI explains that its models process text in units called tokens. A token can represent a character, part of a word, a whole word, or punctuation.
+
+Source: https://help.openai.com/en/articles/4936856-what-are-tokens-and-how-to-count-them
+
+**Claim 2: Language models generate text one token at a time.**
+
+OpenAI documentation and examples show that language models generate output tokens and can predict the next token based on the preceding context.
+
+Source: https://developers.openai.com/cookbook/examples/using_logprobs
+
+### What the AI Explained Well
+
+The AI explained the basic process clearly: prompt → tokens → model processing → next-token prediction → generated response. This helped me understand the basic idea without needing to study the mathematics of transformers.
+
+### Correction / Clarification
+
+One clarification I made is that an LLM should not be thought of as simply searching a database and copying an answer. It processes the input and generates output based on patterns learned during training and the context provided to it.
+
+### Conclusion
+
+I learned that an LLM produces an answer by processing the prompt as tokens and generating output step by step. The basic mental model is to think of the model as predicting likely next tokens based on the previous context.
