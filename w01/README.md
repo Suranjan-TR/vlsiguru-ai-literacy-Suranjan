@@ -18,9 +18,6 @@ This folder contains my Week 01 AI Literacy Layer assessment work.
 
 This folder also contains the small Python program completed as part of the Week 01 Python requirement.
 
-## Evidence
-
-Evidence and supporting material for the missions are stored in the `evidence/` folder.
 
 ## Reflection
 
