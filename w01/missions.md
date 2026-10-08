@@ -141,8 +141,6 @@ Model predicts the next token again...
 
 The model continues this process to produce the complete response.
 
-### Beginner Explanation
-
 A simple way to understand an LLM is to think of it as a very advanced text prediction system.
 
 If I type:
