@@ -164,3 +164,27 @@ https://developers.google.com/machine-learning/problem-framing/ml-framing
 https://developers.google.com/machine-learning/guides/rules-of-ml
 
 **Supports:** Starting with a simple heuristic or non-ML solution, establishing metrics and considering ML when a more complex rule-based solution becomes difficult to maintain.
+
+
+
+## Mission 9 - ML in Semiconductor Design Verification
+
+### 1. NVIDIA Research - Test Selection for RTL Coverage by Unsupervised Learning From Fast Functional Simulation
+
+https://research.nvidia.com/publication/2023-07_late-breaking-results-test-selection-rtl-coverage-unsupervised-learning-fast
+
+**Source type:** Primary research publication.
+
+**Supports:** A research demonstration of ML-based RTL test selection using unsupervised learning, including reported simulation-runtime reduction while maintaining functional coverage in the studied designs.
+
+### 2. IEEE - Accelerated Design Verification Coverage Closure Using Machine Learning
+
+https://doi.org/10.1109/VLSID64188.2025.00070
+
+**Source type:** Primary conference research paper.
+
+**Supports:** An ML approach that predicts whether randomly generated stimulus is likely to add functional coverage and uses that prediction to guide simulation.
+
+### Source note
+
+These sources support the use of ML to assist test selection and functional coverage closure. Their reported results come from specific research experiments and should not be interpreted as guarantees for every commercial verification environment.
