@@ -122,6 +122,25 @@ https://developers.google.com/machine-learning/crash-course/classification
 
 **Supports:** Classification evaluation and the concepts of accuracy, precision, recall, false positives and false negatives.
 
+
+
+## Mission 7 - Why ML Systems Fail
+
+### 1. Google for Developers - Datasets: Data Characteristics
+https://developers.google.com/machine-learning/crash-course/overfitting/data-characteristics
+
+**Supports:** Poor-quality data, label errors, noisy features, missing values and the importance of reliable training data.
+
+### 2. Google for Developers - Production ML Systems: Monitoring
+https://developers.google.com/machine-learning/crash-course/production-ml-systems/monitoring
+
+**Supports:** Monitoring data quality, checking performance across data subsets, data leakage, differences between training and production inputs, and performance changes over time.
+
+### 3. Google for Developers - Data Quality and Interpretation
+https://developers.google.com/machine-learning/guides/data-traps/quality?hl=en
+
+**Supports:** Data quality problems, sampling bias, measurement errors, missing values and incorrect labels.
+
 ### 4. scikit-learn - Model Evaluation
 https://scikit-learn.org/stable/modules/model_evaluation.html
 
