@@ -102,3 +102,29 @@ https://developers.google.com/machine-learning/crash-course/gradient-descent
 https://developers.google.com/machine-learning/crash-course/overfitting/dividing-datasets
 
 **Supports:** The distinction between training data and unseen evaluation data, and why performance on training examples alone is not enough to establish generalisation.
+
+
+
+## Mission 6 - Evaluation and Generalisation
+
+### 1. Google for Developers - Training and Test Sets
+https://developers.google.com/machine-learning/crash-course/overfitting/dividing-datasets
+
+**Supports:** The roles of training, validation and test datasets, and the importance of evaluating models on separate data.
+
+### 2. Google for Developers - Overfitting
+https://developers.google.com/machine-learning/crash-course/overfitting/overfitting
+
+**Supports:** Overfitting, underfitting and the difference between performance on training data and unseen data.
+
+### 3. Google for Developers - Classification
+https://developers.google.com/machine-learning/crash-course/classification
+
+**Supports:** Classification evaluation and the concepts of accuracy, precision, recall, false positives and false negatives.
+
+### 4. scikit-learn - Model Evaluation
+https://scikit-learn.org/stable/modules/model_evaluation.html
+
+**Supports:** Classification and regression metrics, including precision, recall and numerical prediction error.
+
+
