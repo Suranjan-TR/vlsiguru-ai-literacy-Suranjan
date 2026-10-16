@@ -84,3 +84,21 @@ https://scikit-learn.org/stable/modules/unsupervised_reduction.html
 https://developers.google.com/machine-learning/recommendation
 
 **Supports:** Recommendation systems and approaches for suggesting relevant items.
+
+
+## Mission 5 - Anatomy of an ML Model
+
+### 1. Google for Developers - Linear Regression
+https://developers.google.com/machine-learning/crash-course/linear-regression
+
+**Supports:** Linear regression, model predictions, learned weights and bias, loss and the process of fitting a model to training data.
+
+### 2. Google for Developers - Gradient Descent
+https://developers.google.com/machine-learning/crash-course/gradient-descent
+
+**Supports:** The intuition behind loss, optimisation and adjusting model parameters to reduce loss.
+
+### 3. Google for Developers - Training and Test Sets
+https://developers.google.com/machine-learning/crash-course/overfitting/dividing-datasets
+
+**Supports:** The distinction between training data and unseen evaluation data, and why performance on training examples alone is not enough to establish generalisation.
