@@ -147,3 +147,20 @@ https://scikit-learn.org/stable/modules/model_evaluation.html
 **Supports:** Classification and regression metrics, including precision, recall and numerical prediction error.
 
 
+
+## Mission 8 - Does This Problem Actually Need ML?
+
+### 1. Google for Developers - Understand the Problem
+https://developers.google.com/machine-learning/problem-framing/problem
+
+**Supports:** Defining the goal before choosing ML, considering simpler non-ML approaches, checking data availability and comparing an ML solution against a simple baseline.
+
+### 2. Google for Developers - Framing an ML Problem
+https://developers.google.com/machine-learning/problem-framing/ml-framing
+
+**Supports:** Defining the model's goal, choosing the expected output and establishing success metrics.
+
+### 3. Google for Developers - Rules of Machine Learning
+https://developers.google.com/machine-learning/guides/rules-of-ml
+
+**Supports:** Starting with a simple heuristic or non-ML solution, establishing metrics and considering ML when a more complex rule-based solution becomes difficult to maintain.
