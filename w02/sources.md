@@ -51,3 +51,36 @@ https://cloud.google.com/learn/what-is-machine-learning
 https://developers.google.com/machine-learning/guides/data-traps/quality
 
 **Supports:** Data cleaning, missing or invalid values, inconsistent labels, data errors, and how poor-quality data can affect model results.
+
+
+## Mission 4 - ML Task Types
+
+### 1. Google for Developers - Classification
+https://developers.google.com/machine-learning/crash-course/classification
+
+**Supports:** Classification as a task that predicts categories and the use of classification models.
+
+### 2. Google for Developers - Linear Regression
+https://developers.google.com/machine-learning/crash-course/linear-regression
+
+**Supports:** Regression as a task for predicting numerical values.
+
+### 3. scikit-learn - Clustering
+https://scikit-learn.org/stable/modules/clustering.html
+
+**Supports:** Clustering methods used to discover groups in data.
+
+### 4. scikit-learn - Outlier Detection
+https://scikit-learn.org/stable/modules/outlier_detection.html
+
+**Supports:** Methods for identifying unusual observations or outliers.
+
+### 5. scikit-learn - Dimensionality Reduction
+https://scikit-learn.org/stable/modules/unsupervised_reduction.html
+
+**Supports:** Methods for reducing the number of dimensions in a dataset.
+
+### 6. Google for Developers - Recommendation Systems
+https://developers.google.com/machine-learning/recommendation
+
+**Supports:** Recommendation systems and approaches for suggesting relevant items.
