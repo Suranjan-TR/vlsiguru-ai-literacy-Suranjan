@@ -73,6 +73,13 @@ AI is a broad field that includes different approaches. Some systems use Machine
 
 Therefore, not every AI system must use Machine Learning.
 
+Other Methods That Make Up AI (Without ML)
+
+• Rule-Based Systems (Expert Systems): Programs built on explicit "If-Then" logic rules created by human experts (such as early medical diagnostic tools or chess engines using hardcoded decision trees).
+• Symbolic AI (Good Old-Fashioned AI / GOFAI): Systems that manipulate symbols, logic, and abstract concepts rather than learning statistical patterns from data.
+• Search and Optimization Algorithms: Algorithms that explore all possible paths to solve a problem (like pathfinding in GPS or solving puzzles) using logic rather than training on data.
+• Hardcoded Robotics and Control Logic: Traditional automated systems that follow fixed operational scripts to perform repetitive physical tasks.
+
 ## 5. What Is Explicitly Programmed and What Is Learned?
 
 | Aspect | Rule-Based Programming | Machine Learning |
